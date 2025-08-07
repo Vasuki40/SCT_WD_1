@@ -1,0 +1,47 @@
+/* Navbar styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  transition: background-color 0.3s;
+  z-index: 999;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin: 0 20px;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: yellow;
+}
+
+.navbar.scrolled {
+  background-color: #555;
+}
+
+/* Content section */
+.content {
+  padding-top: 80px;
+  text-align: center;
+}
